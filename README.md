@@ -114,3 +114,22 @@ Yes, internet is required for sending and receiving messages.
 **What might happen if the network is slow or unavailable**
 
 Messages may remain unsent, show pending status, or be delivered late once connectivity is restored.
+
+
+# Part D: Software Construction Challenges — WhatsApp
+
+1. Performance and Scalability: WhatsApp serves billions of users sending messages simultaneously.
+Engineers must design systems that:
+- Deliver messages in real time
+- Handle massive traffic spikes (e.g., events, emergencies)
+- Avoid server overload and message delays
+
+A small performance issue can affect millions of users at once.
+
+2. Security and Data Privacy
+WhatsApp uses end-to-end encryption, meaning:
+- Messages must be encrypted/decrypted on devices
+- Keys must be securely generated and stored
+- Servers must relay messages without reading them
+
+Any security flaw can break user trust globally and expose private conversations.

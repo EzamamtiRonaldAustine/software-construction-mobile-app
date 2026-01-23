@@ -27,7 +27,7 @@ Today, WhatsApp solves the broader problem of secure, scalable, and low-cost glo
 
   2. Core Features:
       (i) Privacy and Security
-      (ii) Calls
+      (ii) Calls (Voice and Video)
       (iii) Messaging
 
 

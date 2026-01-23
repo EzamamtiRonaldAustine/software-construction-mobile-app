@@ -27,13 +27,10 @@ Today, WhatsApp solves the broader problem of secure, scalable, and low-cost glo
 
   2. Core Features:
       (i) Privacy and Security
-      (ii) Calls (Voice and Video)(Voice and Video)
-      (iii) Messaging
-
-
-
-
-
+      (ii) Calls
+      (iii) Messaging 
+      (iv) Search (Chat and Message Search)
+      (v) Meta AI (AI-powered Assistance and Smart Features)
 
 # Part B : Thinking Behind the Scenes
    
@@ -90,26 +87,24 @@ What Happens If the Network Is Slow or Unavailable?
 
 Importantly, security is not reduced due to poor network conditions — only delivery is affected.
 
-Engineering Perspective (Why This Is Hard)
-- Encryption must be fast enough to not slow down messaging
-- Security features must work across billions of devices
-- Any bug can compromise user trust globally
-- Strong security must exist without hurting usability
-This is why privacy and security are core architectural concerns, not add-ons.
 
-**Core Feature (ii) Calls(Voice and Video)**
+**Core Feature:(ii) Calls (Voice and Video)**
 
 This feature allows users to communicate with one another in real time through voice and video calls using an internet connection, providing a cost-effective alternative to traditional phone calls.
 
-Software components likely involved;
+**Software components likely involved;**
 
-User Interface (UI): It includes call screens that display the caller information, call duration, and connection status. It also provides interactive controls such as mute, speaker, camera toggle, and end-call buttons to allow users to manage the call easily.
+User Interface (UI):
+It includes call screens that display the caller information, call duration, and connection status. It also provides interactive controls such as mute, speaker, camera toggle, and end-call buttons to allow users to manage the call easily.
 
-Business Logic: It is responsible for initiating and ending calls, managing call states (ringing, connected, ended), authenticating users, and dynamically adjusting audio and video quality based on available network conditions. It also ensures that calls are encrypted to maintain privacy.
+Business Logic:
+It is responsible for initiating and ending calls, managing call states (ringing, connected, ended), authenticating users, and dynamically adjusting audio and video quality based on available network conditions. It also ensures that calls are encrypted to maintain privacy.
 
-Network / APIs: WhatsApp Calls rely on internet-based communication protocols and APIs to establish call connections, handle signaling, and transmit voice and video data securely through WhatsApp servers.
+Network / APIs:
+WhatsApp Calls rely on internet-based communication protocols and APIs to establish call connections, handle signaling, and transmit voice and video data securely through WhatsApp servers.
 
-Data Storage: Only minimal data is stored, mainly call logs such as timestamps and contact details. The actual voice or video content is not stored, supporting end-to-end encryption and user privacy.
+Data Storage:
+Only minimal data is stored, mainly call logs such as timestamps and contact details. The actual voice or video content is not stored, supporting end-to-end encryption and user privacy.
 
 **Whether the feature requires internet connectivity**
 
@@ -120,7 +115,7 @@ Yes, an active internet connection, either through mobile data or Wi-Fi, is requ
 If the network is slow, call quality may be reduced, resulting in delays, poor audio clarity, or interrupted video. If the network is unavailable, calls may fail to connect or may be disconnected unexpectedly.
 
 
-**Key Feature: (iii) Messaging**
+Core Feature: (iii) Messaging
 
 This feature involves sending and receiving of text, audios, images, videos, and documents.
 
@@ -398,9 +393,9 @@ Core Feature worked on: Privacy And Security and answered Part B of the assignme
 He also worked on Part D of the assignment where I briefly talked about the following engineering challenges: Performance and Scalability, Security and Data Privacy, Testing Across Devices and OS Versions & Backward Compatibility 
 and attempted a question of part E of the assignment.
 
-**Name:**  Najjuma Teopista
-**Reg No:**  S23B23/041
-**Access Number:**  B24271 
+**Name:** Najjuma  
+**Reg No:** 
+**Access Number:**  
 Contributions:  
 Serving as the App Analyst, she contributed to multiple sections of the project. In Part A (Question 2), she identified and analysed the app’s primary users. In Part B, she supported the identification of the app’s core features and also worked on the Calls (Voice and Video) feature, examining its software components, internet connectivity requirements, and behaviour under slow or unavailable network conditions. Additionally, she contributed to Part C: Change and Maintainability (Question 3) by analysing why the selected change would be difficult to implement.
 

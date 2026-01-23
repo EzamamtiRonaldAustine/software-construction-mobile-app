@@ -114,3 +114,64 @@ Yes, internet is required for sending and receiving messages.
 **What might happen if the network is slow or unavailable**
 
 Messages may remain unsent, show pending status, or be delivered late once connectivity is restored.
+
+
+# Part C: Change and Maintainability
+
+Chosen Scenario: Add Mobile Payments in Uganda
+
+**Which parts of the app would need changes?**
+
+a) Chat Interface (UI)
+
+Add a “Send Money” button inside chats (next to attachments).
+
+New screens/prompts to show amount, recipient, and confirmation.
+
+b) Backend / Server Systems
+
+WhatsApp servers would need logic to:
+
+- Start the USSD request
+
+- Track transaction status (pending, successful, failed)
+
+- Handle retries and errors
+
+c) Security & Authentication
+
+Extra security checks to prevent fraud
+
+Verification that the sender and receiver are valid
+
+Secure handling of PIN-related flows (even if WhatsApp doesn’t see the PIN)
+
+d) Integration with Mobile Networks & Banks
+
+Direct integration with:
+
+- Telecom operators (for USSD)
+
+- Banks or mobile money providers (MTN MoMo, Airtel Money, etc.)
+
+Country-specific logic (since USSD codes differ)
+
+e) Notifications & Receipts
+
+Transaction confirmations in chat
+
+Failure messages and transaction history
+
+**What existing features could break?**
+
+a) Messaging Flow
+
+If USSD interrupts the app, chats may pause or reload.
+
+Messages could fail to send when the app transitions from the foreground to the background.
+
+b) App Performance
+
+More background processes leads to slower chats on low-end phones.
+
+Higher battery and data usage.

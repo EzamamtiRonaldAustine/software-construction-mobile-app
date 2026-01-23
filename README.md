@@ -84,7 +84,6 @@ Engineering Perspective (Why This Is Hard)
 - Strong security must exist without hurting usability
 This is why privacy and security are core architectural concerns, not add-ons.
 
-Core feature (ii) Calls
 
 **Key Feature:(ii) Calls (Voice and Video)**
 

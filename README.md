@@ -5,24 +5,31 @@ App Selected: WhatsApp
 
 # Part A: Understanding the App
   1. App Overview
-  (a) What problem does this app solve ?
+  
+(a) What problem does this app solve ?
 
+WhatsApp was originally developed to address the problem of expensive and limited SMS-based communication, especially for users communicating across different networks and countries. Traditional messaging relied on telecom providers and incurred per-message costs.
+
+As internet access expanded, the problem evolved into enabling fast and reliable real-time communication over the internet. WhatsApp provided messaging, media sharing, and calls without relying on SMS.
+
+Today, WhatsApp solves the broader problem of secure, scalable, and low-cost global communication, ensuring reliable message delivery, privacy through end-to-end encryption, and consistent performance across billions of users and devices.
 
 
 (b) Who are its primary users ?
 
 (i) Individuals communicating with friends and family
+
 (ii) Students and educations for coordination and collaboration
+
 (iii) Businesses and organizations for customer engagement
+
 (iv) Communities and groups requiring real-time communication
 
-  2. Core Features
+  2. Core Features:
       (i) Privacy and Security
       (ii) Calls
       (iii) Messaging
-
-
-
+      (iv) Search (Chat and Message Search)
 
 
 
@@ -91,7 +98,7 @@ This is why privacy and security are core architectural concerns, not add-ons.
 Core feature (ii) Calls
 
 
-**Key Feature: (iii) Messaging**
+Core Feature: (iii) Messaging
 
 This feature involves sending and receiving of text, audios, images, videos, and documents.
 
@@ -114,6 +121,53 @@ Yes, internet is required for sending and receiving messages.
 **What might happen if the network is slow or unavailable**
 
 Messages may remain unsent, show pending status, or be delivered late once connectivity is restored.
+
+Core Feature:(iv) Search (Chat and Message Search)
+
+Search is a core feature of WhatsApp that allows users to quickly locate messages, media, contacts, and group chats. It helps users retrieve past conversations without manually scrolling through long chat histories, improving usability and efficiency, especially for active users with many chats.
+
+  1.User Interface (UI):
+
+    -Search bar available on the main chat screen and within individual chats
+
+    -Filters for narrowing results (e.g., messages, photos, videos, links)
+
+    -Highlighting of matched keywords in chat results
+
+  2.Business Logic:
+
+    -Handles indexing of messages and media metadata on the user’s device
+
+    -Processes search queries and ranks results based on relevance or recency
+
+    -Applies filters such as date, media type, or chat scope
+
+  3.Network / APIs:
+
+    -Not required for basic chat and message search
+
+    -Used when accessing AI-assisted search or web-based fact-checking features
+
+  4.Data Storage:
+
+    -Chat history and metadata stored in an encrypted local database on the device
+
+    -Search operations query this local storage to retrieve results
+
+Whether the feature requires internet connectivity
+
+  -Basic search: Does not require internet connectivity
+
+  -AI-assisted or web-based search: Requires an active internet connection
+
+What might happen if the network is slow or unavailable
+
+  -If the network is unavailable, users can still search messages, media, and contacts stored locally on their device
+
+  -AI-assisted features and web-based searches will be disabled until connectivity is restored
+
+  -For slow network, local search remains fast, but external search or AI responses may be delayed or fail to load
+
 
 # Part C: Change and Maintainability
 

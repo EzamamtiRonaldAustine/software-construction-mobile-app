@@ -288,18 +288,23 @@ Higher battery and data usage.
 Implementing mobile payments in Uganda would be challenging due to several technical, regulatory, and user-experience constraints.
 
 a) Limited Control over USSD Infrastructure
+
 USSD-based mobile money services are controlled by telecom operators rather than application developers. As a result, WhatsApp would have limited influence over how USSD sessions behave. Additionally, USSD functionality varies across countries, mobile network operators, and device models, making consistent integration difficult.
 
 b) Security and Trust Concerns
+
 Mobile payments require extremely high levels of security to protect users from fraud and financial loss. Even a minor software flaw could lead to unauthorized transactions, resulting in financial damage, loss of user trust, and potential legal consequences for the platform.
 
 c) Regulatory and Legal Constraints
+
 Financial services are heavily regulated and differ from one country to another. To operate mobile payments in Uganda, WhatsApp would need approval and compliance with multiple regulatory bodies, including central banks, telecom regulators, and licensed payment service providers. Meeting these requirements increases development time and complexity.
 
 d) Platform and Operating System Limitations
+
 Some mobile operating systems, particularly iOS, restrict direct access to USSD functionality. In addition, not all devices allow applications to reliably initiate or manage USSD sessions, limiting compatibility across the user base.
 
 e) User Experience Risks
+
 Integrating USSD payments may require users to switch between WhatsApp and USSD interfaces, which can be confusing and disruptive. Failed or interrupted USSD sessions could reduce user confidence in the payment feature and negatively affect overall trust in the app.
 
 # Part D: Software Construction Challenges — WhatsApp

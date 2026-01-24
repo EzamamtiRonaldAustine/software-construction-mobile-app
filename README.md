@@ -246,3 +246,10 @@ WhatsApp uses end-to-end encryption, meaning:
 - Servers must relay messages without reading them
 
 Any security flaw can break user trust globally and expose private conversations.
+
+
+# Part E: Group Reflection
+
+3. What did you learn about teamwork from this exercise?
+
+From this exercise, we learned that teamwork is important because different people have different experiences and perspectives of applications which enabled us to notice different things. Working together helped us understand the app better, share ideas, and divide tasks so the work was done faster and more accurately.

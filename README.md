@@ -385,12 +385,6 @@ While working with branches and pull requests, changes without following the agr
 Also communication played an important role. Additionally, this exercise showed us that version control is not only a tool for saving code, but also a way for a team to work in an organized manner without causing conflicts.
 
 # Group Contributions
-**Name:** Angela  
-**Reg No:** 
-**Access Number:**  
-Contributions:  
-
-
 **Name:** Tendo Calvin  
 **Reg No:** S23B23/013  
 **Access Number:** B24247  
@@ -403,6 +397,15 @@ and attempted a question of part E of the assignment.
 **Reg No:** 
 **Access Number:**  
 Contributions:  
+
+
+**Name:** Kiisa Angela  
+**Reg No:** S23B23/027
+**Access Number:**  B24258
+Contributions:  
+Analyzed the messaging feature in Part B, identifying relevant UI elements, business logic, network/API interactions, data persistence, and expected behavior under poor connectivity.
+Contributed to Part C by evaluating system components affected by the proposed change scenario and identifying potential feature breaks.
+Assisted with the group reflection in Part E by summarizing key teamwork lessons learnt from collaborating.
 
 
 **Name:** Ezamamti Ronald Austine 

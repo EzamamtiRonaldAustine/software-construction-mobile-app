@@ -422,3 +422,4 @@ Contributions:
 He focused on the **Meta AI** core feature within WhatsApp. He analyzed how artificial intelligence is integrated into the application and contributed to **Part B** by examining the software components involved in AI-powered assistance, including user interaction, backend logic, network dependency, and privacy considerations.
 In addition, he contributed to **Part D** by addressing **AI Integration and Ethical Challenges**. Through this analysis, he highlighted that integrating AI is not only about generating intelligent responses but also about responsibility. 
 His contribution emphasized the need for strong moderation, ethical design, high-performance infrastructure, and strict privacy protection to ensure that AI features support users without causing harm, misuse, or misinformation.
+

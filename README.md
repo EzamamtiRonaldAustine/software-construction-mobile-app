@@ -27,7 +27,11 @@ Today, WhatsApp solves the broader problem of secure, scalable, and low-cost glo
 
   2. Core Features:
       (i) Privacy and Security
+<<<<<<< HEAD
       (ii) Calls
+=======
+      (ii) Calls(Voice and Video)
+>>>>>>> 6ffc58ec221f563e0165e03432859ad51efb72ee
       (iii) Messaging
 
 
@@ -97,7 +101,31 @@ Engineering Perspective (Why This Is Hard)
 - Strong security must exist without hurting usability
 This is why privacy and security are core architectural concerns, not add-ons.
 
+<<<<<<< HEAD
 Core feature (ii) Calls
+=======
+**Core Feature (ii) Calls(Voice and Video)**
+
+This feature allows users to communicate with one another in real time through voice and video calls using an internet connection, providing a cost-effective alternative to traditional phone calls.
+
+Software components likely involved;
+
+User Interface (UI): It includes call screens that display the caller information, call duration, and connection status. It also provides interactive controls such as mute, speaker, camera toggle, and end-call buttons to allow users to manage the call easily.
+
+Business Logic: It is responsible for initiating and ending calls, managing call states (ringing, connected, ended), authenticating users, and dynamically adjusting audio and video quality based on available network conditions. It also ensures that calls are encrypted to maintain privacy.
+
+Network / APIs: WhatsApp Calls rely on internet-based communication protocols and APIs to establish call connections, handle signaling, and transmit voice and video data securely through WhatsApp servers.
+
+Data Storage: Only minimal data is stored, mainly call logs such as timestamps and contact details. The actual voice or video content is not stored, supporting end-to-end encryption and user privacy.
+
+**Whether the feature requires internet connectivity**
+
+Yes, an active internet connection, either through mobile data or Wi-Fi, is required for WhatsApp Calls to function.
+
+**What might happen if the network is slow or unavailable**
+
+If the network is slow, call quality may be reduced, resulting in delays, poor audio clarity, or interrupted video. If the network is unavailable, calls may fail to connect or may be disconnected unexpectedly.
+>>>>>>> 6ffc58ec221f563e0165e03432859ad51efb72ee
 
 
 **Key Feature: (iii) Messaging**
@@ -382,6 +410,7 @@ and attempted a question of part E of the assignment.
 **Reg No:**  S23B23/041
 **Access Number:**  B24271 
 Contributions:  
+Serving as the App Analyst, she contributed to multiple sections of the project. In Part A (Question 2), she identified and analysed the app’s primary users. In Part B, she supported the identification of the app’s core features and also worked on the Calls (Voice and Video) feature, examining its software components, internet connectivity requirements, and behaviour under slow or unavailable network conditions. Additionally, she contributed to Part C: Change and Maintainability (Question 3) by analysing why the selected change would be difficult to implement.
 
 
 **Name:** Ezamamti Ronald Austine 

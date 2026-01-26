@@ -27,7 +27,7 @@ Today, WhatsApp solves the broader problem of secure, scalable, and low-cost glo
 
   2. Core Features:
       (i) Privacy and Security
-      (ii) Calls
+      (ii) Calls(Voice and Video)
       (iii) Messaging 
       (iv) Search (Chat and Message Search)
       (v) Meta AI (AI-powered Assistance and Smart Features)
@@ -393,10 +393,11 @@ Core Feature worked on: Privacy And Security and answered Part B of the assignme
 He also worked on Part D of the assignment where I briefly talked about the following engineering challenges: Performance and Scalability, Security and Data Privacy, Testing Across Devices and OS Versions & Backward Compatibility 
 and attempted a question of part E of the assignment.
 
-**Name:** Najjuma  
-**Reg No:** 
-**Access Number:**  
+**Name:** Najjuma Teopista
+**Reg No:** S23B23/041
+**Access Number:** B24271
 Contributions:  
+Serving as the App Analyst, she contributed to multiple sections of the project. In Part A (Question 2), she identified and analysed the app’s primary users. In Part B, she supported the identification of the app’s core features and also worked on the Calls (Voice and Video) feature, examining its software components, internet connectivity requirements, and behaviour under slow or unavailable network conditions. Additionally, she contributed to Part C: Change and Maintainability (Question 3) by analysing why the selected change would be difficult to implement.
 
 
 **Name:** Kiisa Angela  

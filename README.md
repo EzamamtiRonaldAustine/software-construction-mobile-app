@@ -321,3 +321,13 @@ Large systems are built and modified by many engineers over years. If code is ha
 
 From this exercise, we learned that teamwork is important because different people have different experiences and perspectives of applications which enabled us to notice different things. Working together helped us understand the app better, share ideas, and divide tasks so the work was done faster and more accurately.
 
+ From this exercise, we learned that teamwork in software development is not just about dividing work, but about coordinating how everyone’s work fits together.
+     While working with branches and pull requests, we realized that if one person makes changes without following the agreed rules, it can easily affect other people’s work. we also learned that communication is very important, because you need to know what others have changed before you add your part. Additionally, this exercise showed us that version control is not only a tool for saving code, but also a way for a team to work in an organized manner without causing conflicts.
+
+# Group Contributions
+Name : Tendo Calvin
+Reg no: S23B23/013
+Contributions: Core Feature worked on: Privacy And Security and answered Part B of the assignment based off the core feature I chose to work on. I also worked on Part D of the assignment where I briefly talked about the following engineering challenges: Performance and Scalability, Security and Data Privacy, Testing Across Devices and OS Versions & Backward Compatibility and lastly I also attempted all questions of part E of the assignment.
+
+
+

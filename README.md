@@ -32,9 +32,6 @@ Today, WhatsApp solves the broader problem of secure, scalable, and low-cost glo
       (iv) Search (Chat and Message Search)
       (v) Meta AI (AI-powered Assistance and Smart Features)
 
-
-
-
 # Part B : Thinking Behind the Scenes
    
  Core Feature: (i) Privacy and Security
@@ -353,14 +350,22 @@ New updates must still:
 
 Engineers must maintain support for old behavior while adding new features.
 
-5. AI Integration and Ethical Challenges
+5. AI Integration and Ethical Challenges: Integrating Meta AI into WhatsApp introduces new technical and ethical risks.
+Engineers must ensure that AI features:
+- Produce accurate and reliable responses
+- Avoid bias, harmful content, or misinformation
+- Respect user privacy and end-to-end encryption principles
+- Comply with data protection and ethical AI regulations
 
-Integrating Meta AI into WhatsApp introduces challenges related to accuracy, bias, and ethical use of artificial intelligence. Engineers must ensure that AI-generated responses are reliable, safe, and do not spread misinformation. In addition, AI systems require high computational resources and careful monitoring to maintain performance while respecting user privacy and data protection regulations.
-
+AI systems also require high computational resources and continuous monitoring, making it challenging to maintain performance, scalability, and user trust while introducing intelligent features.
 
 Part E: Group Reflection
 1. What surprised your group most about the complexity behind this app?
-    What surprised our group most is how much invisible work happens just to send a simple message. As users, we thought WhatsApp only sends text from one phone to another. But when we analyzed it, we realized there are many things happening in the background like encryption, servers handling delivery, message storage, syncing across devices, and handling poor networks.
+
+Besides much of the invisible work that happens, behind what appears to be a simple action—sending a message. People/we tend to view WhatsApp as a basic text-sending application. 
+However, as we analyzed it, we realized that each message passes through multiple layers of processing, including encryption, server-side message routing, secure storage, device synchronization, and handling unstable or slow network connections.
+We were also surprised by how WhatsApp has evolved over time. What started as a low-cost alternative to SMS has adapted into a global communication platform capable of supporting billions of users, real-time messaging, media sharing, calls, and AI features, all while maintaining performance and security. 
+This evolution highlights the app’s ability to adapt to changing technology, user needs, and network environments.
 
 
 2. Why is writing “working code” not enough for software systems at this scale?
@@ -373,21 +378,47 @@ Large systems are built and modified by many engineers over years. If code is ha
 
 3. What did you learn about teamwork from this exercise?
 
-From this exercise, we learned that teamwork is important because different people have different experiences and perspectives of applications which enabled us to notice different things. Working together helped us understand the app better, share ideas, and divide tasks so the work was done faster and more accurately.
-4. What did you personally learn from analyzing Meta AI in WhatsApp?
-
-From analyzing Meta AI, I learned that adding artificial intelligence to an application is not just about smart answers, but also about responsibility. AI features require strong moderation, ethical considerations, high-performance infrastructure, and privacy protection. This helped me understand that intelligent systems must be carefully designed to support users without causing harm or misuse.
-
-
-
- From this exercise, we learned that teamwork in software development is not just about dividing work, but about coordinating how everyone’s work fits together.
-     While working with branches and pull requests, we realized that if one person makes changes without following the agreed rules, it can easily affect other people’s work. we also learned that communication is very important, because you need to know what others have changed before you add your part. Additionally, this exercise showed us that version control is not only a tool for saving code, but also a way for a team to work in an organized manner without causing conflicts.
+From the exercise, teamwork is important because different people had different experiences and perspectives of WhatsApp application which enabled us to notice different things. 
+Working together helped us understand the app better, share ideas, and divide tasks so the work was done faster and more accurately.
+More so, we learned that teamwork in software development is not just about dividing work, but about coordinating how everyone’s work fits together.
+While working with branches and pull requests, changes without following the agreed rules, affected other people’s work. 
+Also communication played an important role. Additionally, this exercise showed us that version control is not only a tool for saving code, but also a way for a team to work in an organized manner without causing conflicts.
 
 # Group Contributions
-Name : Tendo Calvin
-Reg no: S23B23/013
-Access no: B24247
-Contributions: Core Feature worked on: Privacy And Security and answered Part B of the assignment based off the core feature I chose to work on. I also worked on Part D of the assignment where I briefly talked about the following engineering challenges: Performance and Scalability, Security and Data Privacy, Testing Across Devices and OS Versions & Backward Compatibility and lastly I also attempted all questions of part E of the assignment.
+**Name:** Angela  
+**Reg No:** 
+**Access Number:**  
+Contributions:  
 
 
+**Name:** Tendo Calvin  
+**Reg No:** S23B23/013  
+**Access Number:** B24247  
+Contributions: 
+Core Feature worked on: Privacy And Security and answered Part B of the assignment based off the core feature I chose to work on. 
+He also worked on Part D of the assignment where I briefly talked about the following engineering challenges: Performance and Scalability, Security and Data Privacy, Testing Across Devices and OS Versions & Backward Compatibility 
+and attempted a question of part E of the assignment.
 
+**Name:** Najjuma  
+**Reg No:** 
+**Access Number:**  
+Contributions:  
+
+
+**Name:** Ezamamti Ronald Austine 
+**Reg No:** S23B23/018  
+**Access Number:** B24252  
+Contributions: 
+Serving as the **Documentation Lead** for the group. He created and structured the GitHub repository, guided team members on proper use of branches, reviewed and merged pull requests from collaborators, resolved merge conflicts, and ensured that contributors regularly rebased their work with updates from the main branch to maintain consistency.
+In terms of content contribution, he worked on Part A, Question 1 (What problem does the app solve?), analyzing the origins of WhatsApp, the motivation behind its development, and its evolution over time. 
+He also handled the **Search** core feature, completing Part B by examining its software components, connectivity requirements, and behavior under network constraints. 
+Additionally, he contributed to Part E, Question 1, reflecting on what surprised the group most about the complexity behind WhatsApp.
+
+
+**Name:** Denzel [Surname]  
+**Reg No:** 
+**Access Number:**  
+Contributions:  
+He focused on the **Meta AI** core feature within WhatsApp. He analyzed how artificial intelligence is integrated into the application and contributed to **Part B** by examining the software components involved in AI-powered assistance, including user interaction, backend logic, network dependency, and privacy considerations.
+In addition, he contributed to **Part D** by addressing **AI Integration and Ethical Challenges**. Through this analysis, he highlighted that integrating AI is not only about generating intelligent responses but also about responsibility. 
+His contribution emphasized the need for strong moderation, ethical design, high-performance infrastructure, and strict privacy protection to ensure that AI features support users without causing harm, misuse, or misinformation.

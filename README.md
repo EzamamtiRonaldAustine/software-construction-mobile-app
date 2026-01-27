@@ -34,7 +34,7 @@ Today, WhatsApp solves the broader problem of secure, scalable, and low-cost glo
 
 # Part B : Thinking Behind the Scenes
    
- Core Feature: (i) Privacy and Security
+**Core Feature: (i) Privacy and Security**
 Privacy and security in WhatsApp are not “settings”; they are system-wide design decisions that affect almost every part of the application.
    
 1. User Interface (UI)
@@ -115,7 +115,7 @@ Yes, an active internet connection, either through mobile data or Wi-Fi, is requ
 If the network is slow, call quality may be reduced, resulting in delays, poor audio clarity, or interrupted video. If the network is unavailable, calls may fail to connect or may be disconnected unexpectedly.
 
 
-Core Feature: (iii) Messaging
+**Core Feature: (iii) Messaging**
 
 This feature involves sending and receiving of text, audios, images, videos, and documents.
 
@@ -139,7 +139,7 @@ Yes, internet is required for sending and receiving messages.
 
 Messages may remain unsent, show pending status, or be delivered late once connectivity is restored.
 
-Core Feature: (iv) Search (Chat and Message Search)
+**Core Feature: (iv) Search (Chat and Message Search)**
 
 Search is a core feature of WhatsApp that allows users to quickly locate messages, media, contacts, and group chats. It helps users retrieve past conversations without manually scrolling through long chat histories, improving usability and efficiency, especially for active users with many chats.
 
@@ -185,7 +185,7 @@ What might happen if the network is slow or unavailable
 
   - For slow network, local search remains fast, but external search or AI responses may be delayed or fail to load
 
-Core Feature: (v) Meta AI (AI-powered Assistance and Smart Features)
+**Core Feature: (v) Meta AI (AI-powered Assistance and Smart Features)**
 
 Meta AI is an artificial intelligence feature integrated into WhatsApp to assist users with tasks such as answering questions, generating text, summarizing chats, translating messages, and providing general information directly within the app. This feature enhances user experience by offering intelligent assistance without leaving WhatsApp.
 

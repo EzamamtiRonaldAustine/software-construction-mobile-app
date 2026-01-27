@@ -6,7 +6,7 @@ App Selected: WhatsApp
 # Part A: Understanding the App
   1. App Overview
   
-(a) What problem does this app solve ?
+(a) What problem does this app solve?
 
 WhatsApp was originally developed to address the problem of expensive and limited SMS-based communication, especially for users communicating across different networks and countries. Traditional messaging relied on telecom providers and incurred per-message costs.
 
@@ -15,11 +15,11 @@ As internet access expanded, the problem evolved into enabling fast and reliable
 Today, WhatsApp solves the broader problem of secure, scalable, and low-cost global communication, ensuring reliable message delivery, privacy through end-to-end encryption, and consistent performance across billions of users and devices.
 
 
-(b) Who are its primary users ?
+(b) Who are its primary users?
 
 (i) Individuals communicating with friends and family
 
-(ii) Students and educations for coordination and collaboration
+(ii) Students and educators for coordination and collaboration
 
 (iii) Businesses and organizations for customer engagement
 
@@ -288,7 +288,7 @@ Messages could fail to send when the app transitions from the foreground to the 
 
 b) App Performance
 
-More background processes leads to slower chats on low-end phones.
+More background processes lead to slower chats on low-end phones.
 
 Higher battery and data usage.
 
@@ -318,7 +318,7 @@ Integrating USSD payments may require users to switch between WhatsApp and USSD 
 
 # Part D: Software Construction Challenges — WhatsApp
 
-1. Performance and Scalability: WhatsApp serves billions of users sending messages simultaneously.
+1. Performance and Scalability: WhatsApp serves billions of users, sending messages simultaneously.
 Engineers must design systems that:
 - Deliver messages in real time
 - Handle massive traffic spikes (e.g., events, emergencies)
@@ -362,7 +362,7 @@ AI systems also require high computational resources and continuous monitoring, 
 Part E: Group Reflection
 1. What surprised your group most about the complexity behind this app?
 
-Besides much of the invisible work that happens, behind what appears to be a simple action—sending a message. People/we tend to view WhatsApp as a basic text-sending application. 
+Besides much of the invisible work that happens behind what appears to be a simple action—sending a message. People/we tend to view WhatsApp as a basic text-sending application. 
 However, as we analyzed it, we realized that each message passes through multiple layers of processing, including encryption, server-side message routing, secure storage, device synchronization, and handling unstable or slow network connections.
 We were also surprised by how WhatsApp has evolved over time. What started as a low-cost alternative to SMS has adapted into a global communication platform capable of supporting billions of users, real-time messaging, media sharing, calls, and AI features, all while maintaining performance and security. 
 This evolution highlights the app’s ability to adapt to changing technology, user needs, and network environments.
@@ -373,16 +373,16 @@ This evolution highlights the app’s ability to adapt to changing technology, u
 A feature that works for 100 users can collapse under millions of concurrent users. Engineers must think about performance, load handling, latency, and fault tolerance. “It works on my device” is meaningless if the system slows down or crashes under real-world traffic.
 
   - Code must be maintainable and evolvable by teams:
-Large systems are built and modified by many engineers over years. If code is hard to read, tightly coupled, or poorly structured, every new change risks breaking existing functionality. Software at this scale must be written for future engineers, not just to pass today’s test.
+Large systems are built and modified by many engineers over the years. If code is hard to read, tightly coupled, or poorly structured, every new change risks breaking existing functionality. Software at this scale must be written for future engineers, not just to pass today’s test.
          
 
 3. What did you learn about teamwork from this exercise?
 
-From the exercise, teamwork is important because different people had different experiences and perspectives of WhatsApp application which enabled us to notice different things. 
+From the exercise, teamwork is important because different people had different experiences and perspectives of the WhatsApp application, which enabled us to notice different things. 
 Working together helped us understand the app better, share ideas, and divide tasks so the work was done faster and more accurately.
 More so, we learned that teamwork in software development is not just about dividing work, but about coordinating how everyone’s work fits together.
 While working with branches and pull requests, changes without following the agreed rules, affected other people’s work. 
-Also communication played an important role. Additionally, this exercise showed us that version control is not only a tool for saving code, but also a way for a team to work in an organized manner without causing conflicts.
+Also, communication played an important role. Additionally, this exercise showed us that version control is not only a tool for saving code, but also a way for a team to work in an organized manner without causing conflicts.
 
 # Group Contributions
 **Name:** Tendo Calvin  

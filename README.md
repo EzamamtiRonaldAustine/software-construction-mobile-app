@@ -393,16 +393,16 @@ Core Feature worked on: Privacy And Security and answered **Part B** of the assi
 He also worked on **Part D** of the assignment where I briefly talked about the following engineering challenges: Performance and Scalability, Security and Data Privacy, Testing Across Devices and OS Versions & Backward Compatibility 
 and attempted a question of **Part E** of the assignment.
 
-**Name:** Najjuma Teopista
-**Reg No:** S23B23/041
+**Name:** Najjuma Teopista 
+**Reg No:** S23B23/041 
 **Access Number:** B24271
 Contributions:  
 Serving as the App Analyst, she contributed to multiple sections of the project. In **Part A** (Question 2), she identified and analysed the app’s primary users. In **Part B**, she supported the identification of the app’s core features and also worked on the Calls (Voice and Video) feature, examining its software components, internet connectivity requirements, and behaviour under slow or unavailable network conditions. Additionally, she contributed to **Part C**: Change and Maintainability (Question 3) by analysing why the selected change would be difficult to implement.
 
 
-**Name:** Kiisa Angela  
-**Reg No:** S23B23/027
-**Access Number:**  B24258
+**Name:** Kiisa Angela   
+**Reg No:** S23B23/027 
+**Access Number:**  B24258 
 Contributions:  
 Analyzed the messaging feature in **Part B**, identifying relevant UI elements, business logic, network/API interactions, data persistence, and expected behavior under poor connectivity.
 Contributed to **Part C** by evaluating system components affected by the proposed change scenario and identifying potential feature breaks.
@@ -410,8 +410,8 @@ Assisted with the group reflection in **Part E** by summarizing key teamwork les
 
 
 **Name:** Ezamamti Ronald Austine 
-**Reg No:** S23B23/018  
-**Access Number:** B24252  
+**Reg No:** S23B23/018   
+**Access Number:** B24252   
 Contributions: 
 Serving as the **Documentation Lead** for the group. He created and structured the GitHub repository, guided team members on proper use of branches, reviewed and merged pull requests from collaborators, resolved merge conflicts, and ensured that contributors regularly rebased their work with updates from the main branch to maintain consistency.
 In terms of content contribution, he worked on **Part A**, Question 1 (What problem does the app solve?), analyzing the origins of WhatsApp, the motivation behind its development, and its evolution over time. 
@@ -419,9 +419,9 @@ He also handled the **Search** core feature, completing **Part B** by examining 
 Additionally, he contributed to **Part E**, Question 1, reflecting on what surprised the group most about the complexity behind WhatsApp.
 
 
-**Name:** Buwembo David Denzel  
-**Reg No:** S23B23/074
-**Access Number:** B25565
+**Name:** Buwembo David Denzel   
+**Reg No:** S23B23/074 
+**Access Number:** B25565 
 Contributions:  
 He focused on the **Meta AI** core feature within WhatsApp. He analyzed how artificial intelligence is integrated into the application and contributed to **Part B** by examining the software components involved in AI-powered assistance, including user interaction, backend logic, network dependency, and privacy considerations.
 In addition, he contributed to **Part D** by addressing **AI Integration and Ethical Challenges**. Through this analysis, he highlighted that integrating AI is not only about generating intelligent responses but also about responsibility. 

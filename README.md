@@ -359,7 +359,7 @@ Engineers must ensure that AI features:
 
 AI systems also require high computational resources and continuous monitoring, making it challenging to maintain performance, scalability, and user trust while introducing intelligent features.
 
-Part E: Group Reflection
+# Part E: Group Reflection
 1. What surprised your group most about the complexity behind this app?
 
 Besides much of the invisible work that happens behind what appears to be a simple action—sending a message. People/we tend to view WhatsApp as a basic text-sending application. 
